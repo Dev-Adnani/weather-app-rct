@@ -16,7 +16,7 @@ const Header = () => {
             <Link to="/">
                 <img src={
                     theme === "dark"
-                    ? "/public/light.png" : "/public/dark.png"
+                    ? "/light.png" : "/dark.png"
                 }
                 alt="logo" 
                 className="h-14"
