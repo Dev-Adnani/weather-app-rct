@@ -1,4 +1,5 @@
 import CurrentWeather from "@/components/current-weather";
+import { FavoriteCities } from "@/components/fav-cities";
 import { HourlyTemperature } from "@/components/hourly-weather";
 import LoadingSkeleton from "@/components/loading-skeleton";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
@@ -97,7 +98,7 @@ export default function WeatherDashboard() {
 
   return (
     <div className="space-y-4">
-      {/* Fav City */}
+      <FavoriteCities/>
       <div className="flex items-center justify-between">
         <h1 className="text-xl font-bold tracking-tight">My Location</h1>
         <Button variant={'outline'} size={"icon"} 
